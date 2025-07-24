@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: #1F2937;
+  }
+}
+
+@layer components {
+  .recipe-card {
+    @apply bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100;
+  }
+  
+  .btn-primary {
+    @apply bg-deep-maroon text-white px-6 py-3 rounded-lg hover:bg-rich-maroon transition-colors duration-300 font-medium shadow-sm;
+  }
+  
+  .btn-secondary {
+    @apply bg-accent-gold text-text-dark px-6 py-3 rounded-lg hover:bg-warm-gold transition-colors duration-300 font-medium border border-accent-gold;
+  }
+  
+  .elegant-section {
+    @apply bg-white py-16 px-4;
+  }
+  
+  .elegant-container {
+    @apply max-w-6xl mx-auto;
+  }
+  
+  .header-elegant {
+    @apply bg-header-maroon text-white;
+  }
+  
+  .info-bar {
+    @apply bg-info-tan text-text-dark;
+  }
+  
+  .elegant-script {
+    font-family: 'Dancing Script', cursive;
+  }
+  
+  .elegant-serif {
+    font-family: 'Playfair Display', serif;
+  }
+} 

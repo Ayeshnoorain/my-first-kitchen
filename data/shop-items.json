@@ -1,0 +1,57 @@
+[
+  {
+    "id": "chocolate-cake",
+    "name": "Chocolate Layer Cake",
+    "description": "A decadent three-layer chocolate cake with rich chocolate frosting. Perfect for birthdays and special occasions. Made with high-quality cocoa and real butter for the most indulgent chocolate experience.",
+    "price": "$45",
+    "image": "/images/chocolate-cake-shop.jpg",
+    "available": true,
+    "servingSize": "Serves 8-10 people",
+    "allergens": ["Gluten", "Dairy", "Eggs"],
+    "prepTime": "48 hours notice required"
+  },
+  {
+    "id": "cookies-assortment",
+    "name": "Cookie Assortment Box",
+    "description": "A beautiful box of assorted cookies including chocolate chip, oatmeal raisin, and sugar cookies. Each cookie is handcrafted and decorated with care. Perfect for gifts or special treats.",
+    "price": "$25",
+    "image": "/images/cookies-assortment.jpg",
+    "available": true,
+    "servingSize": "12 cookies per box",
+    "allergens": ["Gluten", "Dairy", "Eggs"],
+    "prepTime": "24 hours notice required"
+  },
+  {
+    "id": "sourdough-bread",
+    "name": "Artisan Sourdough Bread",
+    "description": "Freshly baked sourdough bread with a crispy crust and tangy flavor. Made with my own starter that's been lovingly maintained for over a year. Perfect for sandwiches, toast, or simply with butter.",
+    "price": "$12",
+    "image": "/images/sourdough-bread-shop.jpg",
+    "available": false,
+    "servingSize": "1 large loaf",
+    "allergens": ["Gluten"],
+    "prepTime": "Available on weekends only"
+  },
+  {
+    "id": "cupcakes",
+    "name": "Vanilla Cupcakes with Buttercream",
+    "description": "Light and fluffy vanilla cupcakes topped with smooth buttercream frosting. Available in various colors and decorations. Perfect for parties, celebrations, or just because!",
+    "price": "$30",
+    "image": "/images/vanilla-cupcakes.jpg",
+    "available": true,
+    "servingSize": "12 cupcakes",
+    "allergens": ["Gluten", "Dairy", "Eggs"],
+    "prepTime": "24 hours notice required"
+  },
+  {
+    "id": "brownies",
+    "name": "Fudgy Chocolate Brownies",
+    "description": "Rich, fudgy brownies with a crackly top and gooey center. Made with dark chocolate and real butter for the most decadent brownie experience. Can be customized with nuts or chocolate chips.",
+    "price": "$20",
+    "image": "/images/chocolate-brownies.jpg",
+    "available": true,
+    "servingSize": "9 large brownies",
+    "allergens": ["Gluten", "Dairy", "Eggs"],
+    "prepTime": "24 hours notice required"
+  }
+] 
